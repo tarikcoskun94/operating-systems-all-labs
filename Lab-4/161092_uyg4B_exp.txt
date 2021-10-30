@@ -1,0 +1,55 @@
+*****{ CASE-A }***********************************************************************
+
+Parent, childın bitmesini wait() ile beklediği için her şey olağan şekilde sonuçlanır.
+Beklenen sıra ile çalışır.
+
+**************************************************************************************
+
+
+*****{ CASE-B }***********************************************************************
+
+Not: Alarm süresini yönergedeki gibi 4 saniye yapınca beklenen çıktı olmuyor.
+     Muhtemelen context-switch durumları ve farklı bilgisayarlarda çalıştırılması
+     bile etkili oluyor. 3 saniye yaparak istediğiniz durumu garanti altına aldım.
+
+Parentta bulunan alarmın tetiklemesi ile sinyal handle edilir. Ve bu esneda da
+child process fonksiyon içinde id'si ile kill edilir.
+
+Child is killed. Or not?
+Evet kill edildi. Fakat yukarıdaki notta da yazdığım gibi;
+Alarmı 4 saniye yapınca, sanırım child içindeki sleep(4) den ötürü processleri yarış
+durumuna sokmuş oluyoruz. Çıktıyı garanti etmek için alarmı 1 saniye eksik verdim.
+
+**************************************************************************************
+**************************************************************************************
+
+
+*****{ CASE-C }***********************************************************************
+
+İnputu verip bitene kadar beklersek, processler olağan şekilde bitecektir. Çünkü 
+alarm süresinden dolayı, child her halukarda parenttan önce bitecektir. Sonra da
+parent işlemini bitirir. İşletilme biçimi olarak, bir nevi Case-A gibi süreç biter.
+
+Videoda sorulan CTRL-C | CTRL-Z zamanlaması ile ilgili ayrım şu şekilde;
+Bir processe gönderilen kill işlemi daima grup id'sinin tamamına uygulanır.
+Bu sebeple, child bitmeden hemen bu sinyalleri yollarsak, sinyal grup id'deki tüm
+processlere gönderileceği için sadece sinyali handle eden process kendini korur.
+
+Child bittikten hemen sonra göndermeyi denersek, parenttan başka herhangi bir process
+zaten olmadığından ve parent da bu sinyali dışladığından dolayı olağan şekilde 
+sonuçlanır.
+
+**************************************************************************************
+**************************************************************************************
+
+
+*****{ CASE-D }***********************************************************************
+
+Burada, parenta childı beklemesini söylemediğimiz için normalde yarış durumunda. 
+Ancak childın çalışma süresi sleep(4) yüzünden uzun bir süre olduğu için biliyoruz ki
+her zaman önce parent bitecek. Sonra child bitecek.
+
+Bu durumun terminolojideki ismi, "Orphan Process" dir.
+
+**************************************************************************************
+**************************************************************************************

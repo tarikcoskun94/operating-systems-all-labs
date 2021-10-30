@@ -1,0 +1,18 @@
+Genel olarak memory layoutların amaçlarını anladım. Kodun açıklama satırlarında yazdım.
+Ancak herbir segmentin, başından sonuna kadar nasıl okunacağının aritmetiğini çözemedim.
+Segmentlerin bitiş noktalarını (etext, end, ...) kesin bildiğimiz için, r, w, n işlemlerini döngü olmadan birer
+kez yaptırarak yine de output dosyama ekledim.
+
+SEGMENTLER ->      text      -   initialize data   -   uninitialize data    -            heap              <->                    stack
+              executable kod - başlatılmış veriler - başlatılmamaış veriler - dinamik bellek yönetimi için <-> local değiişkenler ve fonksiyon argumanları için
+
+
+Anladığım, bizim üzerinde uğraştığımız adresler sanal adres oluyor(logical adress). Bü yüzden
+pre-lab daki gösterimde de gördüğümüz üzere text segmentinin başlangıcı bu yüzden hep sabit.
+Her process kendi adres uzayında varolduğu için mantıksal adreslerin atanması benzer oluyor.
+İşletim sistemi de arka planda page table kullanarak fiziksel adresini tespit edebiliyor.
+
+
+Pre-lab dokümanını baştan sona okuyup son dakikaya kadar inat ettim ama maalesef tam anlamıyla beceremedim.
+Bu sebeple bazı soruları yanıtlayamıyorum. Bu kadar boş bir ödev gönderdiğim için de kusra bakmayın,
+ancak bu uygulamaya gerçekten kafam basmadı hocam.

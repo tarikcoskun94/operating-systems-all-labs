@@ -1,0 +1,83 @@
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB_1920BHR_UYG4$ ./exec ~/Desktop/inp.txt
+Pipe was created successfully...
+Parent 		 -> My PID is 3467, PPID is 3427
+Child 		 -> My PID is 3468, PPID is 3467
+		 -> Last modified time: Wed Apr 29 07:36:10 2020
+		 --> Last updated time: Wed Apr 29 07:36:56 2020
+		     /home/tarik/Desktop/inp.txt: 15212008102
+		     -- Wrong input! - Few digits.
+		 --> Last updated time: Wed Apr 29 07:36:58 2020
+		     /home/tarik/Desktop/inp.txt: 1521200810266
+		     -- Wrong input! - Too many digits.
+		 --> Last updated time: Wed Apr 29 07:37:01 2020
+		     /home/tarik/Desktop/inp.txt: 152120081026
+Child 		 -> The message is being send. Warning: Type Constraint!
+Child 		 -> Sleeping 4 sec.s.
+Parent 		 -> Incoming message from child is: 152120081026
+Parent 		 -> Parsing and printing Student ID (Hardcodded, just for info)
+		    Faculty: 		Engineering Faculty
+		    Department: 	Computer Engineering
+		    Entrance year: 	2008
+Parent 		 -> Childe process is being waited.
+Child 		 -> Slept 4 sec.s.
+Terminating [PID: 3468], [PPID: 3467]
+Parent 		 -> Waiting is done.
+Terminating [PID: 3467], [PPID: 3427]
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB_1920BHR_UYG4$ ./exec ~/Desktop/inp.txt
+Pipe was created successfully...
+Parent 		 -> My PID is 3494, PPID is 3427
+Child 		 -> My PID is 3495, PPID is 3494
+		 -> Last modified time: Wed Apr 29 07:37:01 2020
+		 --> Last updated time: Wed Apr 29 07:38:08 2020
+		     /home/tarik/Desktop/inp.txt: 151220181026
+Child 		 -> The message is being send. Warning: Type Constraint!
+Child 		 -> Sleeping 4 sec.s.
+Parent 		 -> Incoming message from child is: 151220181026
+Parent 		 -> Parsing and printing Student ID (Hardcodded, just for info)
+		    Faculty: 		Engineering Faculty
+		    Department: 	Electrical Engineering
+		    Entrance year: 	2018
+Parent 		 -> I'll kill you when your normal time is up.
+Parent 		 -> Alarm clock signal was scheduled in 4 seconds...
+Alarm Handler 	 -> Alarm clock signal has been received.
+Parent 		 -> Child is killed. Or not?
+Terminating [PID: 3494], [PPID: 3427]
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB_1920BHR_UYG4$ ./exec ~/Desktop/inp.txt
+Pipe was created successfully...
+Parent 		 -> My PID is 3542, PPID is 3427
+Child 		 -> My PID is 3543, PPID is 3542
+		 -> Last modified time: Wed Apr 29 07:38:08 2020
+		 --> Last updated time: Wed Apr 29 07:38:54 2020
+		     /home/tarik/Desktop/inp.txt: 310119891111
+Child 		 -> The message is being send. Warning: Type Constraint!
+Child 		 -> Sleeping 4 sec.s.
+Parent 		 -> Incoming message from child is: 310119891111
+Parent 		 -> Parsing and printing Student ID (Hardcodded, just for info)
+		    Faculty: 		Other
+		    Department: 	Other
+		    Entrance year: 	1989
+Parent 		 -> Alarm clock signal was scheduled in 10 seconds...
+Parent 		 -> Only the God can judge me! (freedom for 10 seconds).
+Child 		 -> Slept 4 sec.s.
+Terminating [PID: 3543], [PPID: 3542]
+Alarm Handler 	 -> Alarm clock signal has been received.
+Terminating [PID: 3542], [PPID: 3427]
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB_1920BHR_UYG4$ ./exec ~/Desktop/inp.txt
+Pipe was created successfully...
+Parent 		 -> My PID is 3561, PPID is 3427
+Child 		 -> My PID is 3562, PPID is 3561
+		 -> Last modified time: Wed Apr 29 07:38:53 2020
+		 --> Last updated time: Wed Apr 29 07:39:36 2020
+		     /home/tarik/Desktop/inp.txt: 151420001001
+Child 		 -> The message is being send. Warning: Type Constraint!
+Child 		 -> Sleeping 4 sec.s.
+Parent 		 -> Incoming message from child is: 151420001001
+Parent 		 -> Parsing and printing Student ID (Hardcodded, just for info)
+		    Faculty: 		Engineering Faculty
+		    Department: 	Other
+		    Entrance year: 	2000
+Terminating [PID: 3561], [PPID: 3427]
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB_1920BHR_UYG4$ Child 		 -> Slept 4 sec.s.
+Terminating [PID: 3562], [PPID: 1528]
+
+

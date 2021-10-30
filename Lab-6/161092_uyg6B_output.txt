@@ -1,0 +1,39 @@
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB_1920BHR_UYG6$ ./exec 
+&dummyFunc() 	= 0x556d8208fa46
+&testAddress() 	= 0x556d8208fa4d
+&main() 	= 0x556d8208f87a
+&etext 		= 0x556d8208fadd
+&edata 		= 0x556d82290010
+&end 		= 0x556d82290020
+sbrk(0) 	= 0x828e8000
+&c 		= 0x7ffdd6fbe96f
+
+Enter memory location in hex (start with 0x): 0x556d82290010
+Reading 0x556d82290010: 96
+Writing 96 back to 0x556d82290010: ok
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB_1920BHR_UYG6$ ./exec 
+&dummyFunc() 	= 0x563c468dba46
+&testAddress() 	= 0x563c468dba4d
+&main() 	= 0x563c468db87a
+&etext 		= 0x563c468dbadd
+&edata 		= 0x563c46adc010
+&end 		= 0x563c46adc020
+sbrk(0) 	= 0x4790e000
+&c 		= 0x7ffc0199278f
+
+Enter memory location in hex (start with 0x): 0x563c468dbadd
+Reading 0x563c468dbadd: 0
+Writing 0 back to 0x563c468dbadd: Segmentation fault (core dumped)
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB_1920BHR_UYG6$ ./exec 
+&dummyFunc() 	= 0x55abb0c43a46
+&testAddress() 	= 0x55abb0c43a4d
+&main() 	= 0x55abb0c4387a
+&etext 		= 0x55abb0c43add
+&edata 		= 0x55abb0e44010
+&end 		= 0x55abb0e44020
+sbrk(0) 	= 0xb152f000
+&c 		= 0x7ffe64ada8ef
+
+Enter memory location in hex (start with 0x): 0x000000000000
+Reading 0x0: Segmentation fault (core dumped)
+

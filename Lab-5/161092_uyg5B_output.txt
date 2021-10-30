@@ -1,0 +1,76 @@
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB1920BHR_UYG5$ ./exec
+ 0.                                     --> Saglik calisanlarina sonsuz tesekkurler!..
+ 1. (govde) Atlet
+ 2. (govde) Gomlek
+ 3. (ayak ) Corap
+ 4. (bacak) Pantolon
+ 5. (bacak) Kemer
+ 6. (ayak ) Ayakkabi
+ 7. (el   ) ElDezenfektani              --> Kalan oge sayisi:  6
+ 8. (el   ) Eldiven                     --> Kalan oge sayisi:  5
+ 9. (kafa ) YuzDezenfektani             --> Kalan oge sayisi:  4
+10. (kafa ) SaglikMaskesi               --> Kalan oge sayisi:  3
+11. (kafa ) Bone                        --> Kalan oge sayisi:  2
+12. (govde) Tulum                       --> Kalan oge sayisi:  1
+13. (kafa ) KoruyucuPlastikYuzMaskesi   --> Goreve hazirim!
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB1920BHR_UYG5$ ./exec
+ 0.                                     --> Saglik calisanlarina sonsuz tesekkurler!..
+ 1. (govde) Atlet
+ 2. (ayak ) Corap
+ 3. (govde) Gomlek
+ 4. (bacak) Pantolon
+ 5. (bacak) Kemer
+ 6. (ayak ) Ayakkabi
+ 7. (kafa ) YuzDezenfektani             --> Kalan oge sayisi:  6
+ 8. (el   ) ElDezenfektani              --> Kalan oge sayisi:  5
+ 9. (el   ) Eldiven                     --> Kalan oge sayisi:  4
+10. (kafa ) SaglikMaskesi               --> Kalan oge sayisi:  3
+11. (kafa ) Bone                        --> Kalan oge sayisi:  2
+12. (govde) Tulum                       --> Kalan oge sayisi:  1
+13. (kafa ) KoruyucuPlastikYuzMaskesi   --> Goreve hazirim!
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB1920BHR_UYG5$ ./exec
+ 0.                                     --> Saglik calisanlarina sonsuz tesekkurler!..
+ 1. (govde) Atlet
+ 2. (govde) Gomlek
+ 3. (ayak ) Corap
+ 4. (bacak) Pantolon
+ 5. (bacak) Kemer
+ 6. (ayak ) Ayakkabi
+ 7. (el   ) ElDezenfektani              --> Kalan oge sayisi:  6
+ 8. (el   ) Eldiven                     --> Kalan oge sayisi:  5
+ 9. (kafa ) YuzDezenfektani             --> Kalan oge sayisi:  4
+10. (kafa ) SaglikMaskesi               --> Kalan oge sayisi:  3
+11. (kafa ) Bone                        --> Kalan oge sayisi:  2
+12. (govde) Tulum                       --> Kalan oge sayisi:  1
+13. (kafa ) KoruyucuPlastikYuzMaskesi   --> Goreve hazirim!
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB1920BHR_UYG5$ ./exec
+ 0.                                     --> Saglik calisanlarina sonsuz tesekkurler!..
+ 1. (govde) Atlet
+ 2. (govde) Gomlek
+ 3. (ayak ) Corap
+ 4. (bacak) Pantolon
+ 5. (bacak) Kemer
+ 6. (ayak ) Ayakkabi
+ 7. (kafa ) YuzDezenfektani             --> Kalan oge sayisi:  6
+ 8. (el   ) ElDezenfektani              --> Kalan oge sayisi:  5
+ 9. (el   ) Eldiven                     --> Kalan oge sayisi:  4
+10. (kafa ) SaglikMaskesi               --> Kalan oge sayisi:  3
+11. (kafa ) Bone                        --> Kalan oge sayisi:  2
+12. (govde) Tulum                       --> Kalan oge sayisi:  1
+13. (kafa ) KoruyucuPlastikYuzMaskesi   --> Goreve hazirim!
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB1920BHR_UYG5$ ./exec
+ 0.                                     --> Saglik calisanlarina sonsuz tesekkurler!..
+ 1. (govde) Atlet
+ 2. (govde) Gomlek
+ 3. (ayak ) Corap
+ 4. (bacak) Pantolon
+ 5. (bacak) Kemer
+ 6. (ayak ) Ayakkabi
+ 7. (el   ) ElDezenfektani              --> Kalan oge sayisi:  6
+ 8. (el   ) Eldiven                     --> Kalan oge sayisi:  5
+ 9. (kafa ) YuzDezenfektani             --> Kalan oge sayisi:  4
+10. (kafa ) SaglikMaskesi               --> Kalan oge sayisi:  3
+11. (kafa ) Bone                        --> Kalan oge sayisi:  2
+12. (govde) Tulum                       --> Kalan oge sayisi:  1
+13. (kafa ) KoruyucuPlastikYuzMaskesi   --> Goreve hazirim!
+tarik@tarik-X550VX:~/Desktop/152120161092_IsSisLabB1920BHR_UYG5$ 
